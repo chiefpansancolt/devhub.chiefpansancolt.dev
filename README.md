@@ -6,16 +6,16 @@ The design is the Landing page artboard in the [devhub-plan](https://github.com/
 
 ## Stack
 
-Next.js 16 with TypeScript, Tailwind CSS 4, npm and Node 24, set up like the other documentation sites. Fonts are Bricolage Grotesque, Hanken Grotesk and JetBrains Mono through `next/font`. The site has no client scripts of its own and adds no analytics. Cloudflare adds its analytics at the edge.
+Next.js 16 with TypeScript, Tailwind CSS 4, pnpm 10 and Node 24, set up like the other documentation sites. Fonts are Bricolage Grotesque, Hanken Grotesk and JetBrains Mono through `next/font`. The site has no client scripts of its own and adds no analytics. Cloudflare adds its analytics at the edge.
 
 ## Development
 
 ```bash
-npm install
-npm run dev      # start the site on http://localhost:3000
-npm run lint     # ESLint
-npm run format   # check formatting (npm run format:fix writes it)
-npm run build    # production build
+pnpm install
+pnpm dev          # start the site on http://localhost:3000
+pnpm lint         # ESLint
+pnpm format       # check formatting (pnpm format:fix writes it)
+pnpm build        # production build
 ```
 
 ## How the version is shown

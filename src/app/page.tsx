@@ -1,6 +1,12 @@
 import { Faq, faqs } from '@/components/Faq'
 import { FeatureGrid } from '@/components/FeatureGrid'
-import { MenuBarFeature, WindowFeature } from '@/components/Features'
+import {
+  MenuBarFeature,
+  NewVersionsFeature,
+  StandardPackagesFeature,
+  SyncFeature,
+  WindowFeature,
+} from '@/components/Features'
 import { Footer } from '@/components/Footer'
 import { Hero } from '@/components/Hero'
 import { HowItWorks } from '@/components/HowItWorks'
@@ -66,6 +72,9 @@ export default async function Home() {
         <WorksWith />
         <WindowFeature />
         <MenuBarFeature />
+        <StandardPackagesFeature />
+        <NewVersionsFeature />
+        <SyncFeature />
         <FeatureGrid />
         <HowItWorks />
         <Privacy />

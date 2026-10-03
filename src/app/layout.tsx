@@ -33,7 +33,7 @@ const jetbrains = JetBrains_Mono({
 export const metadata: Metadata = {
   metadataBase: new URL(siteUrl),
   title: {
-    default: `${siteTitle} - keep Homebrew, Node and Ruby up to date`,
+    default: `${siteTitle} - keep your dev tools up to date`,
     template: `%s - ${siteName}`,
   },
   description: siteDescription,
@@ -43,6 +43,11 @@ export const metadata: Metadata = {
     'Homebrew updates',
     'npm global packages',
     'Ruby gems',
+    'Rust',
+    'Cargo',
+    'pipx',
+    'uv',
+    'pnpm',
     'nvm',
     'rbenv',
     'developer tools',
@@ -58,13 +63,13 @@ export const metadata: Metadata = {
   openGraph: {
     type: 'website',
     siteName,
-    title: `${siteTitle} - keep Homebrew, Node and Ruby up to date`,
+    title: `${siteTitle} - keep your dev tools up to date`,
     description: siteDescription,
     url: siteUrl,
   },
   twitter: {
     card: 'summary_large_image',
-    title: `${siteTitle} - keep Homebrew, Node and Ruby up to date`,
+    title: `${siteTitle} - keep your dev tools up to date`,
     description: siteDescription,
   },
 }

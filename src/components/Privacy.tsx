@@ -18,11 +18,13 @@ export function Privacy() {
           </div>
           <div className="border-t-2 border-accent pt-[22px]">
             <div className="font-display text-[28px] font-bold">
-              No network of its own
+              Network only where you ask
             </div>
             <p className="mt-2.5 text-base text-muted">
-              There is no account and no analytics. Only the package managers it
-              runs talk to the internet.
+              DevHub has no account and no analytics. It downloads the Node and
+              Ruby release lists once a day, which you can turn off, and it
+              talks to GitHub only if you connect an account. The package
+              managers it runs talk to the internet as they always do.
             </p>
           </div>
           <div className="border-t-2 border-accent pt-[22px]">

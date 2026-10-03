@@ -113,3 +113,30 @@ export function LockIcon() {
     </Icon>
   )
 }
+
+export function CubeIcon() {
+  return (
+    <Icon>
+      <path d="M12 3l8 4.5v9L12 21l-8-4.5v-9L12 3z" />
+      <path d="M12 12l8-4.5M12 12v9M12 12L4 7.5" />
+    </Icon>
+  )
+}
+
+export function UploadIcon() {
+  return (
+    <Icon>
+      <path d="M12 15V3M7 8l5-5 5 5" />
+      <path d="M5 15v4h14v-4" />
+    </Icon>
+  )
+}
+
+export function ShieldCheckIcon() {
+  return (
+    <Icon>
+      <path d="M12 3l8 3v6c0 5-3.5 8-8 9-4.5-1-8-4-8-9V6l8-3z" />
+      <path d="M9 12l2 2 4-4" />
+    </Icon>
+  )
+}

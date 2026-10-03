@@ -4,12 +4,15 @@ import {
   BellIcon,
   ChipIcon,
   ClockIcon,
+  CubeIcon,
   GlobeIcon,
   KeyboardIcon,
   LayersIcon,
   LockIcon,
   MoonIcon,
   RefreshIcon,
+  ShieldCheckIcon,
+  UploadIcon,
 } from '@/components/icons'
 import { Container, SectionTitle } from '@/components/ui'
 
@@ -32,12 +35,27 @@ const features: { icon: ReactNode; title: string; text: string }[] = [
   {
     icon: <ClockIcon />,
     title: 'A history of everything',
-    text: 'Every check, update and uninstall is saved with its command, exit code and output, in a plain text file you own. Filter it, export it, keep it as long as you like.',
+    text: 'Every check, update, install and uninstall is saved with its command, exit code and output, in a plain text file you own. Filter it, export it, keep it as long as you like.',
   },
   {
     icon: <BellIcon />,
     title: 'Notifications on your terms',
     text: 'Hear about every update, get a daily summary, or only major versions. Checks run on a schedule, when DevHub opens, and when the Mac wakes.',
+  },
+  {
+    icon: <CubeIcon />,
+    title: 'Rust, Python and more',
+    text: 'rustup toolchains, Cargo tools, pipx, uv, pnpm, Bun and Yarn, next to Homebrew, Node and Ruby.',
+  },
+  {
+    icon: <UploadIcon />,
+    title: 'Export and import',
+    text: 'Save your standard lists to a JSON file and read them on another Mac, with Merge or Replace.',
+  },
+  {
+    icon: <ShieldCheckIcon />,
+    title: 'Nothing installs by surprise',
+    text: 'Banners, imports and syncs only change lists or offer an install. You choose when anything is installed.',
   },
   {
     icon: <KeyboardIcon />,
@@ -57,7 +75,7 @@ const features: { icon: ReactNode; title: string; text: string }[] = [
   {
     icon: <LockIcon />,
     title: 'Private by design',
-    text: 'No account, no analytics, and no network requests of its own. It never uses sudo.',
+    text: 'No account, no analytics, and no sudo. It reaches the network only for the daily release lists and, if you connect it, GitHub.',
   },
 ]
 

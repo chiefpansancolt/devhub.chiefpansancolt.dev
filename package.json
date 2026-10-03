@@ -2,7 +2,7 @@
   "name": "devhub-chiefpansancolt-dev",
   "version": "1.0.0",
   "private": true,
-  "description": "The website for DevHub, a macOS menu bar app that keeps Homebrew, Node and Ruby up to date",
+  "description": "The website for DevHub, a macOS menu bar app that keeps Homebrew, Node, Ruby, Rust and Python up to date",
   "author": "chiefpansancolt",
   "repository": {
     "type": "git",

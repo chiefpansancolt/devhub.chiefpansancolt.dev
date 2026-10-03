@@ -1,6 +1,6 @@
 # devhub.chiefpansancolt.dev
 
-The website for [DevHub](https://github.com/chiefpansancolt/devhub), a free and open source macOS menu bar app that keeps Homebrew, Node and Ruby up to date. It is a single static landing page at https://devhub.chiefpansancolt.dev.
+The website for [DevHub](https://github.com/chiefpansancolt/devhub), a free and open source macOS menu bar app that keeps Homebrew, Node, Ruby, Rust and Python up to date. It is a single static landing page at https://devhub.chiefpansancolt.dev.
 
 The design is the Landing page artboard in the [devhub-plan](https://github.com/chiefpansancolt/devhub-plan) repository, and the plan for this site is in `docs/landing-page.md` there.
 

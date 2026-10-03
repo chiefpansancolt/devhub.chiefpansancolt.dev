@@ -57,7 +57,7 @@ export function Footer() {
             <span>DevHub</span>
           </div>
           <p className="mt-3.5 text-[15px] text-faint">
-            A menu bar updater for Homebrew, Node and Ruby.
+            A menu bar updater for Homebrew, Node, Ruby, Rust and Python.
           </p>
         </div>
         <div className="flex flex-wrap gap-14 text-[15px]">

@@ -4,6 +4,7 @@ const points = [
   'Each Node and Ruby version uses its own npm and gem.',
   'One Homebrew command at a time, because Homebrew locks its files.',
   'A failed command shows its real output and exit code, and Try again runs it once more.',
+  'Installs and uninstalls only run when you choose them, and a sync only changes your lists.',
 ]
 
 function Prompt() {
@@ -25,8 +26,8 @@ export function HowItWorks() {
           </SectionTitle>
           <p className="mt-5 text-muted">
             No private index and no background service. DevHub runs your own
-            brew, npm and gem, using the right version of each, and reads what
-            they print.
+            brew, npm, gem, rustup, cargo, pipx and uv, using the right version
+            of each, and reads what they print.
           </p>
           <ol className="mt-6 flex flex-col gap-3.5 text-base text-soft">
             {points.map((point, index) => (
@@ -64,6 +65,24 @@ export function HowItWorks() {
             <Prompt /> gem outdated
             {'\n'}
             <Prompt /> gem update &lt;name&gt; --no-document
+            {'\n\n'}
+            <Comment>Rust</Comment>
+            {'\n'}
+            <Prompt /> rustup check
+            {'\n'}
+            <Prompt /> cargo install --list
+            {'\n\n'}
+            <Comment>Python</Comment>
+            {'\n'}
+            <Prompt /> pipx list --json
+            {'\n'}
+            <Prompt /> uv tool list --outdated
+            {'\n\n'}
+            <Comment>New versions, through your version manager</Comment>
+            {'\n'}
+            <Prompt /> nvm install &lt;version&gt;
+            {'\n'}
+            <Prompt /> rbenv install &lt;version&gt;
           </pre>
         </div>
       </Container>

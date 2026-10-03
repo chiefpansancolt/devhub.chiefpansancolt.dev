@@ -45,7 +45,7 @@ export default async function Image() {
           maxWidth: 980,
         }}
       >
-        Keep Homebrew, Node and Ruby up to date from your menu bar.
+        Keep your dev tools up to date from your menu bar.
       </div>
       <div style={{ marginTop: 40, fontSize: 30, color: '#f5821f' }}>
         Free and open source for macOS
